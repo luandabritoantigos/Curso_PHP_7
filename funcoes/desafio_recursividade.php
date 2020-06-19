@@ -19,7 +19,7 @@ $array = [1, 2, [3, 4, 5,], 6, [7, [8, 9]], 10];
 */
 
 // resposta com foreach
-/*
+
 foreach ($array as $valor){
     if (!is_array($valor)){
         echo "< $valor <br>";
@@ -37,16 +37,17 @@ foreach ($array as $valor){
         }
     }
 }
-*/
+echo "<br>";
+
 // resposta com função recursiva
 
-function escrever($array){
+function escrever($array, $nivel = '>'){
     foreach ($array as $valor){
-        if (is_array() ){
-            
+        if (is_array($valor) ){
+            escrever($valor, $nivel . $nivel[0]);
+        }else{
+            echo "$nivel $valor<br>";
         }
-        
-        //return (!is_array($valor)) ? "< $valor <br>" : escrever($valor);
     }
 }
 
