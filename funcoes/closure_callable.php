@@ -16,12 +16,22 @@ echo is_callable($soma1) ? ' Sim' : ' Não';
 echo '<br>';
 echo '<br>';
 echo soma2(2, 3);
-echo is_callable($soma2) ? ' Sim' : ' Não';
+// echo is_callable(soma2) ? ' Sim' : ' Não';
 
 echo '<br>';
 
+var_dump($soma1);
 
+echo '<br>';
 
+function executar($a, $b, $op, callable $funcao){
+    $resultado = $funcao($a, $b) ?? 'Nada';
+    echo "$a $op $b = $resultado<br>";
+}
+
+echo '<br>';
+executar(2, 3, '+', $soma1);
+// executar(2, 3, '+', soma2);
 
 
 ?>
