@@ -15,6 +15,12 @@
         <div class="conteudo">
             <nav class="modulos">
                 <div class="modulo vermelho-escuro">
+                    <h3>8 - Paradigma O.O.</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=classes_objetos&file=classe">Primeira Classe</a></li>
+                    </ul>
+                </div>
+                <div class="modulo vermelho-escuro">
                     <h3>7 - Funções</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=funcoes&file=escopo">Função & Escopo</a></li>
