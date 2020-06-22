@@ -14,6 +14,13 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+                <div class="modulo roxo-escuro">
+                    <h3>9 - Includes</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=includes&file=include">Include</a></li>
+                        <li><a href="exercicio.php?dir=includes&file=include_funcao">Include Função</a></li>
+                    </ul>
+                </div>
                 <div class="modulo azul-escuro">
                     <h3>8 - Orientação a Objeto</h3>
                     <ul>
