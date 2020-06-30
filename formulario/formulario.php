@@ -56,7 +56,7 @@ if(count($_POST) > 0){
                 <?= $erros['nome'] ?>
             </div>
         </div>
-        <div class="fotm-group col-md-3">
+        <div class="form-group col-md-3">
             <label for="nascimento">Nascimento</label>
             <input type="text" class="form-control <?= $erros['nascimento'] ? 'is-invalid' : '' ?>" name="nascimento" id="nascimento" placeholder="Nascimento" value="<?= $_POST['nascimento']?>">
             <div class="invalid-feedback">
@@ -65,14 +65,14 @@ if(count($_POST) > 0){
         </div>
     </div>
     <div class="form-row">
-        <div class="fotm-group col-md-6">
+        <div class="form-group col-md-6">
             <label for="email">E-mail</label>
             <input type="text" class="form-control <?= $erros['email'] ? 'is-invalid' : '' ?>" name="email" id="email" placeholder="E-mail" value="<?= $_POST['email']?>">
             <div class="invalid-feedback">
                 <?= $erros['email'] ?>
             </div>
         </div>
-        <div class="fotm-group col-md-6">
+        <div class="form-group col-md-6">
             <label for="site">Site</label>
             <input type="text" class="form-control <?= $erros['site'] ? 'is-invalid' : '' ?>" name="site" id="site" placeholder="Site" value="<?= $_POST['site']?>">
             <div class="invalid-feedback">
@@ -81,14 +81,14 @@ if(count($_POST) > 0){
         </div>
     </div>
     <div class="form-row">
-        <div class="fotm-group col-md-6">
+        <div class="form-group col-md-6">
             <label for="filhos">Quantidade de Filhos</label>
             <input type="number" class="form-control <?= $erros['filhos'] ? 'is-invalid' : '' ?>" name="filhos" id="filhos" placeholder="Quantidade de Filhos" value="<?= $_POST['filhos']?>">
             <div class="invalid-feedback">
                 <?= $erros['filhos'] ?>
             </div>
         </div>
-        <div class="fotm-group col-md-6">
+        <div class="form-group col-md-6">
             <label for="salario">Salário</label>
             <input type="text" class="form-control <?= $erros['salario'] ? 'is-invalid' : '' ?>" name="salario" id="salario" placeholder="Salário" value="<?= $_POST['salario']?>">
             <div class="invalid-feedback">
